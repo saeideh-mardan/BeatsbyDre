@@ -1,0 +1,43 @@
+/*
+red: #e01e3c;
+black: #
+red: #
+ */
+@font-face{
+    font-family: 'nunitosans';
+    src: url('../fonts/nunitosans-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'oswald';
+    src: url('../fonts/oswald-Regular.ttf');
+}
+
+
+h1, h2, h3 {
+    font-family: 'nunitosans', sans-serif;
+}
+h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+
+p{
+    font-family: sans-serif;
+}
+
+button{
+    font-family: 'oswald', sans-serif;
+    font-size: 12px;
+}
