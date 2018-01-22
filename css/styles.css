@@ -1,21 +1,23 @@
 /*
+font-family: 'Oswald', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
 red: #e01e3c;
-black: #
-red: #
+black: #161616;
+white: #ffffff;
  */
-@font-face{
+/* @font-face{
     font-family: 'nunitosans';
     src: url('../fonts/nunitosans-Regular.ttf');
 }
 
 @font-face{
     font-family: 'oswald';
-    src: url('../fonts/oswald-Regular.ttf');
+    src: url('../fonts/oswald-Regular.ttf'); */
 }
 
 
 h1, h2, h3 {
-    font-family: 'nunitosans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
 }
 h1{
     font-size: 70px;
@@ -38,6 +40,6 @@ p{
 }
 
 button{
-    font-family: 'oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 12px;
 }
