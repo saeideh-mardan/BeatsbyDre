@@ -14,9 +14,9 @@ white: #ffffff;
     font-family: 'oswald';
     src: url('../fonts/oswald-Regular.ttf'); */
 
-/* **************** General Styles ****************/
-
-
+    /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+    General Styles
+    * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 h1, h2, h3 {
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -35,7 +35,6 @@ h3{
     font-weight: 700;
 }
 
-
 p{
     font-family: sans-serif;
 }
@@ -45,7 +44,16 @@ button{
     font-size: 12px;
 }
 
-/* **************** Header Styles ****************/
+.wrapper{
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Header Styles
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 header{
     height: 80px;
@@ -58,31 +66,124 @@ header .logo{
     height: 40px;
     width: 40px;
     background-size: 40px;
+
 }
+
+.desktop-nav ul {
+    float: right;
+    margin-top: 10px;
+    padding: 0;
+    width: calc(100% - 60px);
+    text-align: right;
+}
+
+.desktop-nav li{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.desktop-nav a,
+.desktop-nav a:visited {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.desktop-nav a:hover,
+.desktop-nav a:focus,
+.desktop-nav a:active{
+    color: white;
+    opacity: 0.9;
+    text-decoration:none;
+}
+
+.desktop-nav .logo{
+    float: left;
+}
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Mobile
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.mobile-nav{
+    display: none;
+    text-align: center;
+}
+
+.mobile-nav button{
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.mobile-nav .logo{
+    display: inline-block;
+}
+
+.mobile-nav .hamburger-container,
+.mobile-nav .search-container{
+    width: 40px;
+    display: inline-block;
+    margin-left: -4px;
+    vertical-align: top;
+    margin-top: 8px;
+}
+
+.mobile-nav .logo-container{
+    display: inline-block;
+    width: calc(100% - 80px);
+    margin-left: -4px;
+}
+
+@media(max-width:768px){
+    .mobile-nav{
+        display:block;
+    }
+    .desktop-nav{
+        display:none;
+    }
+}
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Hero Styles
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 .hero{
     height: 400px;
     background: #999;
-
 }
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Product Lineup
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .product-lineup-container{
     height: 400px;
     background: #333;
 }
 .featured-producs-container{
     height: 400px;
-    background: #555;
+    background: #444;
 }
 .product-support-container{
     height: 400px;
+    background: #555;
+}
+.subscription-conainer{
+    height: 400px;
     background: #666;
 }
-.subsctiption-container{
-    height: 400px;
-    background: #777;
 
-}
 
-.footer{
 
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Footer
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+footer{
+height: 400px;
+background: #999;
 }
